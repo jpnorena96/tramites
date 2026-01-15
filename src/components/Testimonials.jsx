@@ -7,7 +7,7 @@ const Testimonials = () => {
         {
             name: "Andrea M.",
             role: "Visa de Turismo",
-            content: "Mi cita era para 2026. En 2 semanas AJP la adelantó para el próximo mes. ¡Increíble!",
+            content: "Mi cita era para 2028. En 2 semanas AJP la adelantó para el próximo mes. ¡Increíble!",
             image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
         },
         {

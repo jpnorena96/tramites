@@ -36,7 +36,7 @@ const Hero = () => {
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-slate-900 leading-[1.1] mb-6 lg:mb-8 tracking-tight">
-              ¿Tu cita es para el <span className="text-transparent bg-clip-text bg-gradient-to-r from-us-red-600 to-us-red-400">2026?</span><br />
+              ¿Tu cita es para el <span className="text-transparent bg-clip-text bg-gradient-to-r from-us-red-600 to-us-red-400">2027?</span><br />
               <span className="relative z-10 inline-block">
                 Viaja Antes.
                 <svg className="absolute w-full h-3 -bottom-1 left-0 text-ajp-200 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
@@ -53,7 +53,7 @@ const Hero = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="https://wa.me/51999999999"
+                href="https://wa.me/5212291520671"
                 className="bg-us-red-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-us-red-700 transition shadow-xl shadow-us-red-200 flex items-center justify-center gap-2"
               >
                 Adelantar mi Cita <ArrowRight size={20} />

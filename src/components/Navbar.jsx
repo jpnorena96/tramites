@@ -13,7 +13,7 @@ const Navbar = () => {
               <Plane size={20} className="transform -rotate-45" />
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-xl text-slate-900 leading-none">TRÁMITES </span>
+              <span className="font-bold text-xl text-slate-900 leading-none">TRÁMITES MOMO</span>
               <span className="text-[10px] tracking-widest text-ajp-600 font-semibold uppercase">Asesoría & Gestión</span>
             </div>
           </div>
@@ -21,7 +21,7 @@ const Navbar = () => {
             <a href="#inicio" className="text-slate-600 hover:text-ajp-700 font-medium transition">Inicio</a>
             <a href="#servicios" className="text-slate-600 hover:text-ajp-700 font-medium transition">Servicios</a>
             <a href="#faq" className="text-slate-600 hover:text-ajp-700 font-medium transition">Preguntas</a>
-            <a href="https://wa.me/51999999999" target="_blank" className="bg-us-red-600 text-white px-6 py-2.5 rounded-full font-medium hover:bg-us-red-700 transition shadow-lg transform hover:-translate-y-0.5">
+            <a href="https://wa.me/5212291520671" target="_blank" className="bg-us-red-600 text-white px-6 py-2.5 rounded-full font-medium hover:bg-us-red-700 transition shadow-lg transform hover:-translate-y-0.5">
               Agendar Cita
             </a>
           </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="px-4 pt-2 pb-6 space-y-1">
             <a href="#inicio" onClick={() => setIsOpen(false)} className="block py-3 text-slate-600 font-medium border-b border-gray-50">Inicio</a>
             <a href="#servicios" onClick={() => setIsOpen(false)} className="block py-3 text-slate-600 font-medium border-b border-gray-50">Servicios</a>
-            <a href="https://wa.me/51999999999" className="block mt-4 text-center bg-ajp-600 text-white py-3 rounded-lg font-bold shadow-md">Contactar</a>
+            <a href="https://wa.me/5212291520671" className="block mt-4 text-center bg-ajp-600 text-white py-3 rounded-lg font-bold shadow-md">Contactar</a>
           </div>
         </div>
       )}

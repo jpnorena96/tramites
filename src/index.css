@@ -1,0 +1,42 @@
+﻿@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  /* US Blue Palette (formerly ajp) */
+  --color-ajp-50: #f2f4fa;
+  --color-ajp-100: #e1e6f5;
+  --color-ajp-200: #c8d1ec;
+  --color-ajp-300: #a3b4e1;
+  --color-ajp-400: #758fd1;
+  --color-ajp-500: #536dbf;
+  --color-ajp-600: #3C3B6E; /* Old Glory Blue */
+  --color-ajp-700: #32315b;
+  --color-ajp-800: #2a2949;
+  --color-ajp-900: #25243d;
+  --color-ajp-950: #171626;
+
+  /* US Red Palette */
+  --color-us-red-50: #fdf2f3;
+  --color-us-red-100: #fce7e9;
+  --color-us-red-200: #f8d2d6;
+  --color-us-red-300: #f2abb3;
+  --color-us-red-400: #ea7c89;
+  --color-us-red-500: #de5466;
+  --color-us-red-600: #B22234; /* Old Glory Red */
+  --color-us-red-700: #961d2c;
+  --color-us-red-800: #7d1b27;
+  --color-us-red-900: #681c25;
+  --color-us-red-950: #390b11;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; @apply bg-slate-50 text-slate-800; }
+
+@keyframes pulse-custom {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+  50% { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+}
+.whatsapp-pulse { animation: pulse-custom 2s infinite; }
